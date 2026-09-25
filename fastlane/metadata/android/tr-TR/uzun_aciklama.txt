@@ -1,0 +1,9 @@
+M3 stilinde, sıvı alımınızı/ilaçlarınızı/tansiyon ölçümlerinizi takip edebileceğiniz, erişilebilirlik ayarlarıyla donatılmış basit bir sağlık uygulaması! Sadeleştirilmiş arayüz seçeneğiyle!
+
+Bu uygulamayla:
+-Tansiyon ölçümlerinizi takip edebileceksiniz (manuel veri girişi)
+-Bildirimler yoluyla ilaçlarınızı takip edebileceksiniz
+-Sıvı alımınızı takip edebileceksiniz (manuel veri girişi)
+-Bakıcılarınızla kullanıcı verilerinizi gerekirse paylaşabileceksiniz.
+
+Bir de bu uygulama gelecekte güncellemeler almaya devam edecek!
