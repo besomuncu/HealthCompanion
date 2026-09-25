@@ -1,1 +1,1 @@
-Sıvı alımı/ilaçları/tansiyon ölçümlerinizi takip edebileceğiniz bir uygulama
+Su alımı, ilaç ve tansiyon takiplerinizi yapabileceğiniz bir uygulama.
