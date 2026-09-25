@@ -1,0 +1,9 @@
+A basic M3 styled app to track your water intake/medications/blood pressure checks polished for everyone with it's detailed accessibility settings! With an option for a simplified layout!
+
+With this app, you will be able to:
+-Track your Blood Pressure over the days (manual entries)
+-Track your medications with notifications
+-Track your liquid intake (manual entries)
+-Share your user profile and data with your caretakers if needed.
+
+This app will get updated over the days too!
