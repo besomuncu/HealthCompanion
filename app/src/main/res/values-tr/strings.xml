@@ -1,0 +1,235 @@
+<resources>
+    <string name="app_name">Sağlık Yardımcım</string>
+
+    <!-- Navigasyon -->
+    <string name="nav_dashboard">Özet</string>
+    <string name="nav_liquids">Sıvılar</string>
+    <string name="nav_meds">İlaçlar</string>
+    <string name="nav_bp">Tansiyon</string>
+    <string name="nav_settings">Ayarlar</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title">Profilinizi Oluşturun</string>
+    <string name="onboarding_subtitle">Sağlığınızı takip etmeye başlamak için lütfen profilinizi ayarlayın.</string>
+    <string name="weight_hint">Kilo (kg)</string>
+    <string name="height_hint">Boy (cm)</string>
+    <string name="optional_hint">(opsiyonel)</string>
+    <string name="water_goal_hint">Günlük Su Hedefi (ml)</string>
+    <string name="recommended_goal">Önerilen: %1$dml</string>
+    <string name="btn_cancel">İptal</string>
+
+    <!-- Ayarlar -->
+    <string name="settings_theme">Tema</string>
+    <string name="settings_language">Dil</string>
+    <string name="settings_text_size">Metin Boyutu</string>
+    <string name="settings_time_format">Zaman Formatı</string>
+    <string name="settings_date_format">Tarih Formatı</string>
+    <string name="settings_layout">Görünüm Modu</string>
+    <string name="layout_normal">Normal</string>
+    <string name="layout_simplified">Sadeleştirilmiş</string>
+    <string name="layout_simplified_hint">(Yaşlılar için en iyisi!)</string>
+    <string name="onboarding_step_text_size">Metin boyutunu seçin</string>
+    <string name="onboarding_step_layout">Görünüm modunu seçin</string>
+    <string name="onboarding_text_preview">Metinleriniz bu şekilde görünecek.</string>
+    <string name="btn_next">İleri</string>
+    <string name="btn_back">Geri</string>
+    <string name="btn_finish">Bitir</string>
+    <string name="theme_light">Açık</string>
+    <string name="theme_dark">Koyu</string>
+    <string name="theme_system">Sistem</string>
+    <string name="text_size_small">Küçük</string>
+    <string name="text_size_normal">Normal</string>
+    <string name="text_size_large">Büyük</string>
+    <string name="text_size_extra_large">Çok Büyük</string>
+    <string name="format_12h">12-saat</string>
+    <string name="format_24h">24-saat</string>
+    <string name="restart_title">Dil Değişikliği</string>
+    <string name="restart_message">Dil değişikliğini uygulamak için uygulamanın yeniden başlatılması gerekiyor. Devam edilsin mi?</string>
+    <string name="btn_restart">Şimdi Yeniden Başlat</string>
+    <string name="btn_apply">Uygula</string>
+    <string name="remove_user">Kullanıcıyı Kaldır</string>
+    <string name="confirm_remove_user">Bu kullanıcıyı kaldırmak istediğinizden emin misiniz? Tüm veriler kaybolacak.</string>
+    <string name="battery_optimize_title">Pil Optimizasyonu</string>
+    <string name="battery_optimize_message">İlaç uyarılarının güvenilir şekilde çalışması için lütfen bu uygulama için pil optimizasyonunu devre dışı bırakın.</string>
+    <string name="btn_fix_battery">Pil Optimizasyonunu Yoksay</string>
+    <string name="notif_warning_title">Bildirimler Devre Dışı</string>
+    <string name="notif_warning_message">İlaç ve sağlık hatırlatıcıları gösterilmeyecektir. Lütfen Sistem Ayarları\'ndan bildirimleri etkinleştirin.</string>
+    <string name="btn_fix_notifs">Bildirimleri Etkinleştir</string>
+    <string name="water_reminder_interval">Su Hatırlatma Aralığı</string>
+    <string name="credits_text">besomuncu tarafından ❤️ ile yapıldı</string>
+    <string name="date_format_dmy">GG/AA/YYYY</string>
+    <string name="date_format_mdy">AA/GG/YYYY</string>
+
+    <!-- Doğrulama -->
+    <string name="error_invalid_number">Değer bir sayı olmalı</string>
+    <string name="error_invalid_time">Geçersiz zaman (SS:dd)</string>
+    <string name="error_field_required">Alan gerekli</string>
+    <string name="error_must_be_number">Değer bir sayı olmalı</string>
+    <string name="error_duplicate_button">Bu buton zaten mevcut</string>
+    <string name="error_invalid_factor">Faktör 0.0 ile 1.0 arasında olmalı</string>
+    <string name="error_hour_limit_12">12-saat formatında saat 12\'den büyük olamaz</string>
+    <string name="error_hour_limit_24">Saat 23\'ten büyük olamaz</string>
+
+    <!-- Filtreler -->
+    <string name="filter_title">Filtrele</string>
+    <string name="filter_name_az">İsim: A-Z</string>
+    <string name="filter_name_za">İsim: Z-A</string>
+    <string name="filter_pills_hl">Hap Sayısı: Çoktan Aza</string>
+    <string name="filter_pills_lh">Hap Sayısı: Azdan Çoka</string>
+    <string name="filter_time_el">Zaman: Erkenden Geçer</string>
+    <string name="filter_time_le">Zaman: Geçten Erkene</string>
+    <string name="filter_date_no">Tarih: En Yeni</string>
+    <string name="filter_date_on">Tarih: En Eski</string>
+    <string name="filter_bp_hl">Ort. Tansiyon: Yüksekten Düşüğe</string>
+    <string name="filter_bp_lh">Ort. Tansiyon: Düşükten Yükseğe</string>
+    <string name="filter_type_label">Tür: %1$s</string>
+    <string name="filter_type_all">Tür: Tümü</string>
+    <string name="filter_order_no">Sıralama: En Yeni</string>
+    <string name="filter_order_on">Sıralama: En Eski</string>
+
+    <!-- Panel -->
+    <string name="welcome_guest">Hoş geldin, %1$s</string>
+    <string name="switch_user">Kullanıcı Değiştir</string>
+    <string name="today_summary">Bugünün Özeti</string>
+    <string name="summary_water">Su: %1$d ml</string>
+    <string name="summary_other">Diğer sıvılar: %1$d ml</string>
+    <string name="summary_next_med">Sıradaki İlaç</string>
+    <string name="summary_last_bp">Son Tansiyon</string>
+    <string name="summary_other_liquids">Diğer Sıvılar</string>
+    <string name="today_activities">Bugünün Kontrol Listesi</string>
+    <string name="med_taken">Alındı</string>
+    <string name="med_pending">Bekliyor</string>
+    <string name="med_checklist">Günlük Kontrol Listesi</string>
+    <string name="taken_meds_label">Alınan İlaçlar:</string>
+    <string name="untaken_meds_label">Kaçırılan İlaçlar:</string>
+    <string name="dialog_switch_user">Kullanıcılar</string>
+    <string name="btn_create_user">Yeni Kullanıcı Oluştur</string>
+    <string name="bp_reminder">Tansiyon Hatırlatma Aralığı</string>
+    <string name="unit_hours">saat</string>
+    <string name="new_user_name">Yeni Kullanıcı Adı</string>
+    <string name="btn_add_user">Kullanıcı Ekle</string>
+    <string name="no_activities_today">Henüz bugünün aktivitesi yok.</string>
+
+    <!-- Hata Ayıklama -->
+    <string name="debug_menu">Hata Ayıklama Menüsü</string>
+    <string name="btn_simulate_day">Gün Geçtiğini Simüle Et</string>
+    <string name="btn_simulate_bp">Tansiyon Notif. Simüle Et</string>
+    <string name="btn_simulate_water">Su Notif. Simüle Et</string>
+
+    <string name="past_summaries">Geçmiş Özetler</string>
+    <string name="btn_delete_all">Tümünü Sil</string>
+    <string name="confirm_delete_all_summaries_title">Tüm Özetleri Sil</string>
+    <string name="confirm_delete_all_summaries_message">Tüm geçmiş özetleri silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.</string>
+    <string name="summary_detail_title">Gün Detayları: %1$s</string>
+    <string name="summary_liquids_title">Tüketilen Sıvılar:</string>
+    <string name="confirm_delete_summary">Bu özeti silmek istiyor musunuz?</string>
+    <string name="confirm_delete_summary_title">Özeti Sil</string>
+
+    <!-- Sıvılar -->
+    <string name="daily_liquid_intake">Günlük Sıvı Tüketimi</string>
+    <string name="water_goal_format">%1$d / %2$d ml</string>
+    <string name="btn_200ml">200ml</string>
+    <string name="btn_330ml">330ml</string>
+    <string name="btn_500ml">500ml</string>
+    <string name="btn_custom">Yeni Miktar</string>
+    <string name="confirm_reset_intake">Bugünkü sıvı tüketimini sıfırlamak istediğinizden emin misiniz?</string>
+    <string name="confirm_reset_title">Tüketimi Sıfırla</string>
+    <string name="confirm_delete_fav">Bu özel butonu silmek istiyor musunuz?</string>
+    <string name="confirm_delete_fav_title">Özel Butonu Sil</string>
+    <string name="btn_reset">Sıfırla</string>
+    <string name="btn_new_drink">Yeni İçecek</string>
+    <string name="today_log">Bugünün Kaydı</string>
+    <string name="history_log">Tüketim Geçmişi:</string>
+    <string name="btn_ok">Tamam</string>
+    <string name="custom_drink_title">Yeni Özel İçecek</string>
+    <string name="custom_ml_title">Yeni Miktar</string>
+    <string name="liquid_ml_hint">Miktar (ml)</string>
+    <string name="liquid_name_hint">İsim (örn. Çay)</string>
+    <string name="hydration_factor">Hidrasyon Faktörü (örn. 0.8)</string>
+    <string name="hydration_factor_desc">Bilimsel çarpan: Su = 1.0, Kahve = 0.8. Düşük değerler daha az hidrasyon sayılır.</string>
+    <string name="btn_reset_intake">Bugünkü Tüketimi Sıfırla</string>
+    <string name="water_label">Su</string>
+
+    <!-- İlaçlar -->
+    <string name="medications">İlaçlar</string>
+    <string name="add_medication">İlaç Ekle</string>
+    <string name="med_name">İlaç Adı</string>
+    <string name="pill_count_hint">Toplam Hap Sayısı</string>
+    <string name="dosage_per_intake">Aynı anda kaç tane alman lazım</string>
+    <string name="pill_stock">Kalan Hap: %1$d</string>
+    <string name="out_of_stock">Tükendi</string>
+    <string name="pill_status_over">İlaç Bitti</string>
+    <string name="exit_title">Uygulamadan Çık</string>
+    <string name="exit_message">Uygulamadan çıkmak istediğinizden emin misiniz?</string>
+    <string name="btn_exit">Çıkış</string>
+    <string name="illness">Hastalık</string>
+    <string name="method_hint">Alma Şekli (örn. Hap)</string>
+    <string name="time_hint">Zaman (SS:dd)</string>
+    <string name="food_context">Beslenme Durumu</string>
+    <string name="food_empty">Aç Karnına</string>
+    <string name="food_full">Tok Karnına</string>
+    <string name="food_any">Fark Etmez</string>
+    <string name="create_os_alarm">Sistem Alarmı Oluştur</string>
+    <string name="cancel_os_alarm">Sistem Alarmını Durdur</string>
+    <string name="cancel_alarm_manual_title">Sistem Alarmını Kaldır</string>
+    <string name="cancel_alarm_manual_message">Teknik sınırlamalar nedeniyle, bu uygulama telefonunuzun Saat uygulamasındaki alarmları otomatik olarak kaldıramaz. Lütfen Tamam\'a bastığınızda açılacak olan Saat uygulamasında bu ilaca ait alarmı bulup silin.</string>
+    <string name="dialog_edit_med">İlacı Düzenle</string>
+    <string name="btn_delete_med">İlacı Sil</string>
+    <string name="confirm_delete_med">Bu ilacı silmek istediğinizden emin misiniz?</string>
+    <string name="btn_save">Kaydet</string>
+    <string name="btn_refill">Yenile</string>
+    <string name="refill_warning">Not: Hap sayısı başlangıç kutu boyutuna (%1$d) sıfırlanacak. Yeni kutu farklıysa düzenlemeniz gerekebilir.</string>
+    <string name="am">ÖÖ</string>
+    <string name="pm">ÖS</string>
+    <string name="for_illness">Hastalık: %1$s</string>
+    <string name="method_at">Şekil: %1$s - Saat: %2$s</string>
+    <string name="at_a_time">(aynı anda %1$d tane)</string>
+
+    <!-- Tansiyon -->
+    <string name="bp_history">Tansiyon Geçmişi</string>
+    <string name="add_reading">Ölçüm Ekle</string>
+    <string name="systolic">Büyük Tansiyon (Sistolik)</string>
+    <string name="diastolic">Küçük Tansiyon (Diastolik)</string>
+    <string name="pulse">Nabız</string>
+    <string name="bp_format">%1$d/%2$d mmHg</string>
+    <string name="pulse_format">Nabız: %1$d</string>
+    <string name="dialog_edit_reading">Ölçümü Düzenle</string>
+    <string name="btn_delete">Sil</string>
+    <string name="total_water_label">Toplam Su: %1$dml</string>
+    <string name="meds_taken_label">Alınan İlaçlar: %1$d</string>
+    <string name="avg_bp_label">Ortalama Tansiyon: %1$d/%2$d</string>
+    <string name="on_date">%1$s tarihinde</string>
+    <string name="med_warning_title">İlaç Uyarısı</string>
+    <string name="med_warning_text">Uyarı: %1$s ilacınızı almayı unuttunuz!</string>
+    <string name="notif_hydration_title">Su Hatırlatıcı</string>
+    <string name="notif_hydration_text">Su içme zamanı!</string>
+    <string name="notif_med_title">İlaç Hatırlatıcı</string>
+    <string name="notif_med_text">%1$s ilacınızı alma zamanı.</string>
+    <string name="notif_bp_title">Tansiyon Hatırlatıcı</string>
+    <string name="notif_bp_text">Tansiyonunuzu ölçme zamanı!</string>
+    <string name="btn_delete_fav">Favoriyi Sil</string>
+    <string name="confirm_delete_reading">Bu ölçümü silmek istiyor musunuz?</string>
+    <string name="confirm_delete_reading_title">Ölçümü Sil</string>
+
+    <!-- Backup -->
+    <string name="backup_saved_downloads">Yedek İndirilenler klasörüne kaydedildi: %1$s</string>
+    <string name="share_backup">Yedeği Paylaş</string>
+    <string name="backup_imported">Veriler başarıyla içe aktarıldı!</string>
+    <string name="btn_export_my_data">Verilerimi Dışa Aktar</string>
+    <string name="btn_export_all_data">Tüm Verileri Dışa Aktar</string>
+    <string name="btn_import_data">Verileri İçe Aktar</string>
+    <string name="btn_share_latest_data">Son Dışa Aktarılan Veriyi Paylaş</string>
+    <string name="btn_import_returning">Eski kullanıcı mısınız? Verilerinizi aktarın</string>
+    <string name="backup_restore_title">Yedekleme ve Geri Yükleme</string>
+    <string name="edit_user_name">Kullanıcı Adını Düzenle</string>
+    <string name="new_name_label">Yeni İsim</string>
+    <string name="error_no_backup_found">Dışa aktarılmış veri bulunamadı.</string>
+    <string name="error_autofind_failed">Uygulama veriyi otomatik bulamadı, lütfen dosyayı kendiniz seçin.</string>
+    <string name="setting_auto_backup">Otomatik Yedeklemeyi Etkinleştir</string>
+    <string name="last_backup_format">Son yedekleme: %1$s</string>
+    <string name="last_backup_never">Son yedekleme: Hiçbir zaman</string>
+    <string name="error_notif_permission_denied">Bildirimlere izin vermezseniz hatırlatıcılar gibi bazı özellikler düzgün çalışmayacaktır.</string>
+    <string name="notif_action_taken">Alındı Olarak İşaretle</string>
+    <string name="notif_action_remind_later">10 dk Sonra Hatırlat</string>
+    <string name="notif_action_open">Uygulamayı Aç</string>
+</resources>

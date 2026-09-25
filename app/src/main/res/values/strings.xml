@@ -1,0 +1,235 @@
+<resources>
+    <string name="app_name">My Health Companion</string>
+
+    <!-- Navigation -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_liquids">Liquids</string>
+    <string name="nav_meds">Medications</string>
+    <string name="nav_bp">Blood Pressure</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title">Create Your Profile</string>
+    <string name="onboarding_subtitle">Please set up your profile to start tracking your health.</string>
+    <string name="weight_hint">Weight (kg)</string>
+    <string name="height_hint">Height (cm)</string>
+    <string name="optional_hint">(optional)</string>
+    <string name="water_goal_hint">Daily Water Goal (ml)</string>
+    <string name="recommended_goal">Recommended: %1$dml</string>
+    <string name="btn_cancel">Cancel</string>
+
+    <!-- Settings -->
+    <string name="settings_theme">Theme</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_text_size">Text Size</string>
+    <string name="settings_time_format">Time Format</string>
+    <string name="settings_date_format">Date Format</string>
+    <string name="settings_layout">Layout Mode</string>
+    <string name="layout_normal">Normal</string>
+    <string name="layout_simplified">Simplified</string>
+    <string name="layout_simplified_hint">(Best for the elder!)</string>
+    <string name="onboarding_step_text_size">Choose your text size</string>
+    <string name="onboarding_step_layout">Choose your layout</string>
+    <string name="onboarding_text_preview">This is how your text will look.</string>
+    <string name="btn_next">Next</string>
+    <string name="btn_back">Back</string>
+    <string name="btn_finish">Finish</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="theme_system">System</string>
+    <string name="text_size_small">Small</string>
+    <string name="text_size_normal">Normal</string>
+    <string name="text_size_large">Large</string>
+    <string name="text_size_extra_large">Extra Large</string>
+    <string name="format_12h">12-hour</string>
+    <string name="format_24h">24-hour</string>
+    <string name="restart_title">Language Change</string>
+    <string name="restart_message">The app needs to restart to apply the language change. Continue?</string>
+    <string name="btn_restart">Restart Now</string>
+    <string name="btn_apply">Apply</string>
+    <string name="remove_user">Remove User</string>
+    <string name="confirm_remove_user">Are you sure you want to remove this user? All data will be lost.</string>
+    <string name="battery_optimize_title">Battery Optimization</string>
+    <string name="battery_optimize_message">To ensure medications warnings work reliably, please disable battery optimization for this app.</string>
+    <string name="btn_fix_battery">Ignore Battery Optimization</string>
+    <string name="notif_warning_title">Notifications Disabled</string>
+    <string name="notif_warning_message">Medication and health reminders will not be shown. Please enable notifications in System Settings.</string>
+    <string name="btn_fix_notifs">Enable Notifications</string>
+    <string name="water_reminder_interval">Water Reminder Interval</string>
+    <string name="credits_text">made with ❤️ by besomuncu</string>
+    <string name="date_format_dmy">DD/MM/YYYY</string>
+    <string name="date_format_mdy">MM/DD/YYYY</string>
+
+    <!-- Validation -->
+    <string name="error_invalid_number">Value should be a number</string>
+    <string name="error_invalid_time">Invalid time (HH:mm)</string>
+    <string name="error_field_required">Field required</string>
+    <string name="error_must_be_number">Value must be a number</string>
+    <string name="error_duplicate_button">This button already exists</string>
+    <string name="error_invalid_factor">Factor must be 0.0 to 1.0</string>
+    <string name="error_hour_limit_12">Hour cannot be greater than 12 in 12-hour format</string>
+    <string name="error_hour_limit_24">Hour cannot be greater than 23</string>
+
+    <!-- Filters -->
+    <string name="filter_title">Filter</string>
+    <string name="filter_name_az">Name: A-Z</string>
+    <string name="filter_name_za">Name: Z-A</string>
+    <string name="filter_pills_hl">Pill Count: High to Low</string>
+    <string name="filter_pills_lh">Pill Count: Low to High</string>
+    <string name="filter_time_el">Time: Early to Late</string>
+    <string name="filter_time_le">Time: Late to Early</string>
+    <string name="filter_date_no">Date: Newest First</string>
+    <string name="filter_date_on">Date: Oldest First</string>
+    <string name="filter_bp_hl">Average BP: High to Low</string>
+    <string name="filter_bp_lh">Average BP: Low to High</string>
+    <string name="filter_type_label">Type: %1$s</string>
+    <string name="filter_type_all">Type: All</string>
+    <string name="filter_order_no">Order: Newest First</string>
+    <string name="filter_order_on">Order: Oldest First</string>
+
+    <!-- Dashboard -->
+    <string name="welcome_guest">Welcome, %1$s</string>
+    <string name="switch_user">Switch User</string>
+    <string name="today_summary">Today\'s Summary</string>
+    <string name="summary_water">Water: %1$d ml</string>
+    <string name="summary_other">Other liquids: %1$d ml</string>
+    <string name="summary_next_med">Next Medication</string>
+    <string name="summary_last_bp">Last Blood Pressure</string>
+    <string name="summary_other_liquids">Other Liquids</string>
+    <string name="today_activities">Today\'s Checklist</string>
+    <string name="med_taken">Taken</string>
+    <string name="med_pending">Pending</string>
+    <string name="med_checklist">Daily Checklist</string>
+    <string name="taken_meds_label">Taken Medications:</string>
+    <string name="untaken_meds_label">Missed Medications:</string>
+    <string name="dialog_switch_user">Users</string>
+    <string name="btn_create_user">Create New User</string>
+    <string name="bp_reminder">BP Reminder Interval</string>
+    <string name="unit_hours">hours</string>
+    <string name="new_user_name">New User Name</string>
+    <string name="btn_add_user">Add User</string>
+    <string name="no_activities_today">No activities for today yet.</string>
+
+    <!-- Debug -->
+    <string name="debug_menu">Debug Menu</string>
+    <string name="btn_simulate_day">Simulate Day Passed</string>
+    <string name="btn_simulate_bp">Simulate BP Reminder</string>
+    <string name="btn_simulate_water">Simulate Water Reminder</string>
+
+    <string name="past_summaries">Past Summaries</string>
+    <string name="btn_delete_all">Delete All</string>
+    <string name="confirm_delete_all_summaries_title">Delete All Summaries</string>
+    <string name="confirm_delete_all_summaries_message">Are you sure you want to delete all past summaries? This action cannot be undone.</string>
+    <string name="summary_detail_title">Day Details: %1$s</string>
+    <string name="summary_liquids_title">Liquids Drank:</string>
+    <string name="confirm_delete_summary">Delete this summary?</string>
+    <string name="confirm_delete_summary_title">Delete Summary</string>
+
+    <!-- Liquids -->
+    <string name="daily_liquid_intake">Daily Liquid Intake</string>
+    <string name="water_goal_format">%1$d / %2$d ml</string>
+    <string name="btn_200ml">200ml</string>
+    <string name="btn_330ml">330ml</string>
+    <string name="btn_500ml">500ml</string>
+    <string name="btn_custom">Custom Amount</string>
+    <string name="confirm_reset_intake">Are you sure you want to reset today\'s liquid intake?</string>
+    <string name="confirm_reset_title">Reset Intake</string>
+    <string name="confirm_delete_fav">Delete this custom button?</string>
+    <string name="confirm_delete_fav_title">Delete Custom Button</string>
+    <string name="btn_reset">Reset</string>
+    <string name="btn_new_drink">New Drink</string>
+    <string name="today_log">Today\'s Log</string>
+    <string name="history_log">Intake Log:</string>
+    <string name="btn_ok">OK</string>
+    <string name="custom_drink_title">New Custom Drink</string>
+    <string name="custom_ml_title">Custom Amount</string>
+    <string name="liquid_ml_hint">Amount (ml)</string>
+    <string name="liquid_name_hint">Name (e.g. Tea)</string>
+    <string name="hydration_factor">Hydration Factor (e.g. 0.8)</string>
+    <string name="hydration_factor_desc">Scientific multiplier: Water = 1.0, Coffee = 0.8. Lower values count for less hydration.</string>
+    <string name="btn_reset_intake">Reset Today\'s Intake</string>
+    <string name="water_label">Water</string>
+
+    <!-- Medications -->
+    <string name="medications">Medications</string>
+    <string name="add_medication">Add Medication</string>
+    <string name="med_name">Medication Name</string>
+    <string name="pill_count_hint">Initial Pill Count</string>
+    <string name="dosage_per_intake">Pills per dose</string>
+    <string name="pill_stock">Pills left: %1$d</string>
+    <string name="out_of_stock">Out of Stock</string>
+    <string name="pill_status_over">Medication Finished</string>
+    <string name="exit_title">Exit App</string>
+    <string name="exit_message">Are you sure you want to exit the application?</string>
+    <string name="btn_exit">Exit</string>
+    <string name="illness">Illness</string>
+    <string name="method_hint">Method (e.g. Pill)</string>
+    <string name="time_hint">Time (HH:mm)</string>
+    <string name="food_context">Food Context</string>
+    <string name="food_empty">Empty Stomach</string>
+    <string name="food_full">Full Stomach</string>
+    <string name="food_any">Doesn\'t Matter</string>
+    <string name="create_os_alarm">Create System Alarm</string>
+    <string name="cancel_os_alarm">Stop System Alarm</string>
+    <string name="cancel_alarm_manual_title">Remove System Alarm</string>
+    <string name="cancel_alarm_manual_message">Due to technical limitations, this app cannot remove alarms from your phone\'s Clock app automatically. Please find and delete the alarm for this medication in the Clock app, which will open when you press OK.</string>
+    <string name="dialog_edit_med">Edit Medication</string>
+    <string name="btn_delete_med">Delete Medication</string>
+    <string name="confirm_delete_med">Are you sure you want to delete this medication?</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_refill">Refill</string>
+    <string name="refill_warning">Note: Pill count will be reset to your initial box size (%1$d). You may need to edit it if the new box is different.</string>
+    <string name="am">AM</string>
+    <string name="pm">PM</string>
+    <string name="for_illness">For: %1$s</string>
+    <string name="method_at">Method: %1$s at %2$s</string>
+    <string name="at_a_time">(%1$d at a time)</string>
+
+    <!-- Blood Pressure -->
+    <string name="bp_history">Blood Pressure History</string>
+    <string name="add_reading">Add Reading</string>
+    <string name="systolic">Systolic</string>
+    <string name="diastolic">Diastolic</string>
+    <string name="pulse">Pulse</string>
+    <string name="bp_format">%1$d/%2$d mmHg</string>
+    <string name="pulse_format">Pulse: %1$d</string>
+    <string name="dialog_edit_reading">Edit Reading</string>
+    <string name="btn_delete">Delete</string>
+    <string name="total_water_label">Total Water: %1$dml</string>
+    <string name="meds_taken_label">Medications Taken: %1$d</string>
+    <string name="avg_bp_label">Average BP: %1$d/%2$d</string>
+    <string name="on_date">On %1$s</string>
+    <string name="med_warning_title">Medication Warning</string>
+    <string name="med_warning_text">Warning: You forgot to take your medication: %1$s!</string>
+    <string name="notif_hydration_title">Hydration Reminder</string>
+    <string name="notif_hydration_text">It\'s time to drink some water!</string>
+    <string name="notif_med_title">Medication Reminder</string>
+    <string name="notif_med_text">It\'s time to take your medication: %1$s</string>
+    <string name="notif_bp_title">BP Reminder</string>
+    <string name="notif_bp_text">It\'s time to check your blood pressure!</string>
+    <string name="btn_delete_fav">Delete Favorite</string>
+    <string name="confirm_delete_reading">Delete this reading?</string>
+    <string name="confirm_delete_reading_title">Delete Reading</string>
+
+    <!-- Backup -->
+    <string name="backup_saved_downloads">Backup saved to Downloads: %1$s</string>
+    <string name="share_backup">Share Backup</string>
+    <string name="backup_imported">Data imported successfully!</string>
+    <string name="btn_export_my_data">Export My Data</string>
+    <string name="btn_export_all_data">Export All Data</string>
+    <string name="btn_import_data">Import Data</string>
+    <string name="btn_share_latest_data">Share Latest Exported Data</string>
+    <string name="btn_import_returning">Returning user? Import your data</string>
+    <string name="backup_restore_title">Backup &amp; Restore</string>
+    <string name="edit_user_name">Edit User Name</string>
+    <string name="new_name_label">New Name</string>
+    <string name="error_no_backup_found">No exported data found.</string>
+    <string name="error_autofind_failed">App couldn\'t automatically find the data, please choose the file manually.</string>
+    <string name="setting_auto_backup">Enable Auto Backup</string>
+    <string name="last_backup_format">Last backed up: %1$s</string>
+    <string name="last_backup_never">Last backed up: Never</string>
+    <string name="error_notif_permission_denied">Some features like reminders won\'t work properly if you don\'t allow notifications.</string>
+    <string name="notif_action_taken">Mark as Taken</string>
+    <string name="notif_action_remind_later">Remind in 10 mins</string>
+    <string name="notif_action_open">Open App</string>
+</resources>
