@@ -46,6 +46,11 @@ android {
     buildFeatures {
         compose = true
     }
+    packaging {
+        resources {
+            excludes += "META-INF/version-control-info.textproto"
+        }
+    }
 }
 
 dependencies {
