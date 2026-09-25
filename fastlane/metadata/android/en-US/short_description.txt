@@ -1,1 +1,1 @@
-Basic M3 styled app to track your water intake/medications/blood pressure checks!
+Basic M3 style app to track your water intake/medications/blood pressure checks
